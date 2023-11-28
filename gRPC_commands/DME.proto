@@ -1,0 +1,15 @@
+syntax = "proto3";
+option go_package = "gRPC_commands/";
+package gRPC_commands;
+
+service P2PService {
+  rpc SendMessage(Message) returns (Response);
+}
+
+message Message {
+  string message = 1;
+}
+
+message Response {
+  string responses = 1;
+}

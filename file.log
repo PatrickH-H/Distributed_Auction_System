@@ -1,0 +1,39 @@
+User Christian started listening
+User Mark started listening
+User Patrick started listening
+Christian wants to enter critical section, waiting for respons...
+Node wants access to critical section. Mark answering with state: RELEASED
+Node wants access to critical section. Patrick answering with state: RELEASED
+Christian got respons from all nodes and is now heading to critical section...
+Christian entered the critical section!
+Patrick wants to enter critical section, waiting for respons...
+Node wants access to critical section. Christian answering with state: WANTED
+Node wants access to critical section. Mark answering with state: RELEASED
+Mark wants to enter critical section, waiting for respons...
+Node wants access to critical section. Patrick answering with state: WANTED
+Node wants access to critical section. Christian answering with state: WANTED
+Christian left the critical section!
+Patrick got 'REPLY' message
+Patrick got respons from all nodes and is now heading to critical section...
+Patrick entered the critical section!
+Mark got 'REPLY' message
+Patrick left the critical section!
+Mark got 'REPLY' message
+Mark got respons from all nodes and is now heading to critical section...
+Mark entered the critical section!
+Patrick wants to enter critical section, waiting for respons...
+Node wants access to critical section. Mark answering with state: WANTED
+Node wants access to critical section. Christian answering with state: RELEASED
+Christian wants to enter critical section, waiting for respons...
+Node wants access to critical section. Mark answering with state: WANTED
+Node wants access to critical section. Patrick answering with state: WANTED
+Mark left the critical section!
+Christian got 'REPLY' message
+Patrick got 'REPLY' message
+Patrick got respons from all nodes and is now heading to critical section...
+Patrick entered the critical section!
+Patrick left the critical section!
+Christian got 'REPLY' message
+Christian got respons from all nodes and is now heading to critical section...
+Christian entered the critical section!
+Christian left the critical section!
