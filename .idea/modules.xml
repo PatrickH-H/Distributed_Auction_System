@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Distributed_Mutual_Exclusion.iml" filepath="$PROJECT_DIR$/Distributed_Mutual_Exclusion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Distributed_Auction_System.iml" filepath="$PROJECT_DIR$/.idea/Distributed_Auction_System.iml" />
     </modules>
   </component>
 </project>

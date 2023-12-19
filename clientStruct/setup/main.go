@@ -1,7 +1,8 @@
 package main
 
 import (
-	"Distributed_Mutual_Exclusion/clientStruct/node"
+	_ "Distributed_Auctuion_System/Logger"
+	"Distributed_Auctuion_System/clientStruct/node"
 	"bufio"
 	"fmt"
 	"os"

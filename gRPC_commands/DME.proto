@@ -8,8 +8,14 @@ service P2PService {
 
 message Message {
   string message = 1;
+  string sender = 2;
 }
 
 message Response {
   string responses = 1;
+  string currentBid = 2;
+  string currentHighestBidder = 3;
+  map<string,string> auctionMap = 4;
+  string AuctionState = 5;
+  string sender = 6;
 }

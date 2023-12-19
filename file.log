@@ -1,39 +1,102 @@
-User Christian started listening
-User Mark started listening
-User Patrick started listening
-Christian wants to enter critical section, waiting for respons...
-Node wants access to critical section. Mark answering with state: RELEASED
-Node wants access to critical section. Patrick answering with state: RELEASED
-Christian got respons from all nodes and is now heading to critical section...
-Christian entered the critical section!
-Patrick wants to enter critical section, waiting for respons...
-Node wants access to critical section. Christian answering with state: WANTED
-Node wants access to critical section. Mark answering with state: RELEASED
-Mark wants to enter critical section, waiting for respons...
-Node wants access to critical section. Patrick answering with state: WANTED
-Node wants access to critical section. Christian answering with state: WANTED
-Christian left the critical section!
-Patrick got 'REPLY' message
-Patrick got respons from all nodes and is now heading to critical section...
-Patrick entered the critical section!
-Mark got 'REPLY' message
-Patrick left the critical section!
-Mark got 'REPLY' message
-Mark got respons from all nodes and is now heading to critical section...
-Mark entered the critical section!
-Patrick wants to enter critical section, waiting for respons...
-Node wants access to critical section. Mark answering with state: WANTED
-Node wants access to critical section. Christian answering with state: RELEASED
-Christian wants to enter critical section, waiting for respons...
-Node wants access to critical section. Mark answering with state: WANTED
-Node wants access to critical section. Patrick answering with state: WANTED
-Mark left the critical section!
-Christian got 'REPLY' message
-Patrick got 'REPLY' message
-Patrick got respons from all nodes and is now heading to critical section...
-Patrick entered the critical section!
-Patrick left the critical section!
-Christian got 'REPLY' message
-Christian got respons from all nodes and is now heading to critical section...
-Christian entered the critical section!
-Christian left the critical section!
+User Christian has joined the Auction
+User Pejer has joined the Auction
+User Checker has joined the Auction
+Participant 127.0.0.1:10002 want to bid with the amount 2000
+Got the response: <You successfully started an auction!> and got sent AuctionLeadAmount, CurrentHighestBidder, AuctionMap and AuctionState
+Auction has started
+Participant 127.0.0.1:10000 wants to know if node 127.0.0.1:10001 is available 
+Got the response: <UCK>
+Participant 127.0.0.1:10000 wants to know if node 127.0.0.1:10002 is available 
+Got the response: <UCK>
+Participant 127.0.0.1:10000 wants to know if node 127.0.0.1:10000 is available 
+Got the response: <UCK>
+Participant 127.0.0.1:10001 want to bid with the amount 4000
+Got the response: <Your bid is the highest!> and got sent AuctionLeadAmount, CurrentHighestBidder, AuctionMap and AuctionState
+Participant 127.0.0.1:10000 wants to know if node 127.0.0.1:10000 is available 
+Got the response: <UCK>
+Participant 127.0.0.1:10002 want to bid with the amount 2500
+Got the response: <Ongoing auction and your bid was not the highest. Highest bid right now is <highest bid>> and got sent AuctionLeadAmount, CurrentHighestBidder, AuctionMap and AuctionState
+Participant 127.0.0.1:10002 want to bid with the amount 6000
+Got the response: <Your bid is the highest!> and got sent AuctionLeadAmount, CurrentHighestBidder, AuctionMap and AuctionState
+Participant 127.0.0.1:10000 wants to know if node 127.0.0.1:10000 is available 
+Got the response: <UCK>
+Participant127.0.0.1:10001 wants to know current state of auction
+Got the response: <ONGOING AUCTION! Current bid: <AuctionLeadAmount>> and got sent AuctionLeadAmount, AuctionMap and AuctionState
+Participant 127.0.0.1:10000 wants to know if node 127.0.0.1:10000 is available 
+Got the response: <UCK>
+Participant 127.0.0.1:10000 wants to know if node 127.0.0.1:10001 is available 
+Got the response: <UCK>
+Participant 127.0.0.1:10000 wants to know if node 127.0.0.1:10002 is available 
+Got the response: <UCK>
+Auction has ended
+Participant 127.0.0.1:10000 wants to know if node 127.0.0.1:10002 is available 
+Got the response: <UCK>
+Successfully connected to winner 127.0.0.1:10002
+Participant 127.0.0.1:10000 wants to know if node 127.0.0.1:10000 is available 
+Got the response: <UCK>
+Participant127.0.0.1:10001 wants to know current state of auction
+Got the response: <No ongoing auction> and got sent AuctionState
+Participant 127.0.0.1:10000 wants to know if node 127.0.0.1:10000 is available 
+Got the response: <UCK>
+Participant 127.0.0.1:10001 want to bid with the amount 2000
+Got the response: <You successfully started an auction!> and got sent AuctionLeadAmount, CurrentHighestBidder, AuctionMap and AuctionState
+Auction has ended
+Participant 127.0.0.1:10002 want to bid with the amount 4000
+Got the response: <Your bid is the highest!> and got sent AuctionLeadAmount, CurrentHighestBidder, AuctionMap and AuctionState
+Participant 127.0.0.1:10000 wants to know if node 127.0.0.1:10000 is available 
+Got the response: <UCK>
+Participant 127.0.0.1:10000 wants to know if node 127.0.0.1:10001 is available 
+Got the response: <UCK>
+Participant 127.0.0.1:10000 wants to know if node 127.0.0.1:10002 is available 
+Got the response: <UCK>
+Participant 127.0.0.1:10000 wants to know if node 127.0.0.1:10000 is available 
+Got the response: <UCK>
+Participant127.0.0.1:10001 wants to know current state of auction
+Got the response: <ONGOING AUCTION! Current bid: <AuctionLeadAmount>> and got sent AuctionLeadAmount, AuctionMap and AuctionState
+Participant 127.0.0.1:10000 wants to know if node 127.0.0.1:10000 is available 
+Got the response: <UCK>
+Participant 127.0.0.1:10000 wants to know if node 127.0.0.1:10001 is available 
+Got the response: <UCK>
+Auction has ended
+Failed to connected to winner 127.0.0.1:10002 choosing another winner
+Participant 127.0.0.1:10000 wants to know if node 127.0.0.1:10001 is available 
+Got the response: <UCK>
+Successfully connected to winner 127.0.0.1:10001
+Participant 127.0.0.1:10000 wants to know if node 127.0.0.1:10000 is available 
+Got the response: <UCK>
+Participant 127.0.0.1:10000 wants to know if node 127.0.0.1:10000 is available 
+Got the response: <UCK>
+Participant 127.0.0.1:10000 wants to know if node 127.0.0.1:10001 is available 
+Got the response: <UCK>
+User DubleChecker has joined the Auction
+Participant 127.0.0.1:10003 want to bid with the amount 25000
+Got the response: <You successfully started an auction!> and got sent AuctionLeadAmount, CurrentHighestBidder, AuctionMap and AuctionState
+Auction has started
+Participant 127.0.0.1:10000 wants to know if node 127.0.0.1:10000 is available 
+Got the response: <UCK>
+Participant 127.0.0.1:10001 want to bid with the amount 30000
+Got the response: <Your bid is the highest!> and got sent AuctionLeadAmount, CurrentHighestBidder, AuctionMap and AuctionState
+Failed to connect to current leader, choosing new leader...
+Participant 127.0.0.1:10000 wants to know if node 127.0.0.1:10001 is available 
+Got the response: <UCK>
+Participant wants to know current lamport time of node
+Got sent node.Addr, and current lamport time
+Participant 127.0.0.1:10000 wants to know if node 127.0.0.1:10003 is available 
+Got the response: <UCK>
+Participant wants to know current lamport time of node
+Got sent node.Addr, and current lamport time
+Participant wants to let node know it is now the leader
+New leader updated to: 127.0.0.1:10001
+Auction has started
+Participant 127.0.0.1:10000 wants to know if node 127.0.0.1:10001 is available 
+Got the response: <UCK>
+Participant 127.0.0.1:10000 wants to know if node 127.0.0.1:10001 is available 
+Got the response: <UCK>
+Auction has ended
+Participant 127.0.0.1:10000 wants to know if node 127.0.0.1:10001 is available 
+Got the response: <UCK>
+Successfully connected to winner 127.0.0.1:10001
+Participant 127.0.0.1:10000 wants to know if node 127.0.0.1:10001 is available 
+Got the response: <UCK>
+Participant 127.0.0.1:10000 wants to know if node 127.0.0.1:10003 is available 
+Got the response: <UCK>
